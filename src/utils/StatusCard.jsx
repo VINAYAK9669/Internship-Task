@@ -51,7 +51,7 @@ function StatusCard({ taskName }) {
         className="w-full text-center p-2 text-white font-medium"
         style={{ background: `${bg_color}` }}
       >
-        {taskName}
+        {taskName === "Assign" ? "Pending" : taskName}
       </h1>
 
       <div className="relative flex flex-col justify-start p-3 items-center gap-3 overflow-y-auto no-scrollbar  h-[90%]">
