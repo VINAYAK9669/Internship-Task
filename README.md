@@ -52,4 +52,22 @@ This project is a Task Tracker web application built for managing tasks within a
    - The application implements error handling mechanisms to handle errors encountered during task editing or creation, ensuring a smooth user experience.
 
 
+## Installation
+
+To get started with this project, follow these steps:
+
+```bash
+# Clone the repository to your local machine
+git clone https://github.com/your-username/your-project.git
+
+# Navigate to the project directory
+cd your-project
+
+# Install dependencies using npm
+npm install
+
+# Start the development server
+npm run dev
+
+
 
