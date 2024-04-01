@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  body {
+    @apply font-poppins;
+  }
+  input [type="date"]::-webkit-inner-spin-button,
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .form {
+    @apply flex flex-col justify-between  w-[340px] gap-y-1;
+  }
+  .form-input {
+    @apply bg-gray_hard p-1 outline-none;
+  }
+  .label {
+    @apply font-medium;
+  }
+}
