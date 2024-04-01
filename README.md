@@ -2,6 +2,9 @@
 
 This project is a Task Tracker web application built for managing tasks within a team in an organization. It allows users to create tasks with various properties such as title, description, start date, end date (if completed), status, assignee, and priority. The app provides functionality to sort and filter tasks based on different criteria like priority, start/end date, assignee, and more.
 
+# Host Link
+[Visit my site hosted on Netlify](https://task-tracker-intern-hypersrot.netlify.app/)
+
 ## Tech Stack
 
 - **React.js + Vite**: Frontend framework for building user interfaces.
