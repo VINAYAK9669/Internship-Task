@@ -4,12 +4,13 @@ This project is a Task Tracker web application built for managing tasks within a
 
 ## Tech Stack
 
-- React.js + Vite: Frontend framework for building user interfaces.
-- Redux: State management library for managing application state.
-- Tailwind CSS: Utility-first CSS framework for styling.
-- React Hook Form: Library for managing form state and validation.
-- React Hot Toastify: Toast notifications for displaying error or success messages.
-- React Icons: Icon library for adding icons to the UI.
+- ![React.js + Vite](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg): Frontend framework for building user interfaces.
+- ![Redux](https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png): State management library for managing application state.
+- ![Tailwind CSS](https://upload.wikimedia.org/wikipedia/commons/9/98/Tailwind_CSS_logo.svg): Utility-first CSS framework for styling.
+- ![React Hook Form](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg): Library for managing form state and validation.
+- ![React Hot Toastify](https://react-hot-toast.com/images/logo.svg): Toast notifications for displaying error or success messages.
+- ![React Icons](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg): Icon library for adding icons to the UI.
+
 
 ## Features
 
