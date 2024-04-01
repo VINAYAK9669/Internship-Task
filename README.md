@@ -86,9 +86,9 @@ npm run dev
 ![Screenshot 4](public/screenshots/Dashboard_4.JPG)
 ![Screenshot 5](public/screenshots/Dashboard_5.JPG)
 
-### Edit Task: (If the status changes to "completed" automatically the END DATE filed wiil appear.
+### Edit Task: (If the status changes to "completed" then automatically the END DATE filed will appear.
 ![Screenshot 6](public/screenshots/Dashboard_6.JPG)
 
-### Delete Task: (If the status changes to "completed" Then user can't delete the task)
+### Delete Task: The tasks from completed column can't be deleted.
 ![Screenshot 7](public/screenshots/Dashboard_7.JPG)
 
