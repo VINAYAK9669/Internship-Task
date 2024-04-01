@@ -16,6 +16,7 @@ function Delete() {
   const { currentTask, currentSelectedId } = useSelector(
     (state) => state.tasks
   );
+  console.log(currentTask);
   // Close a delete form
   function closeForm() {
     dispatch(setIsDeleteSelected());
@@ -24,14 +25,21 @@ function Delete() {
   function handleDelete() {
     const id = currentSelectedId;
 
-    dispatch(deleteTask(id)); // Delete the task with given id
-    // Reset current task details any task is deleted
-    dispatch(setCurrentSelectedId("")); // Reset current selected task id
+    if (currentTask[0].status === "Completed") {
+      // Show an error toast if the task is already completed
+      toast.error("Cannot delete a completed task");
+      dispatch(setIsDeleteSelected());
+    } else {
+      // If the task is not completed, proceed with deletion
+      dispatch(deleteTask(id)); // Delete the task with given id
+      // Reset current task details any task is deleted
+      dispatch(setCurrentSelectedId("")); // Reset current selected task id
 
-    toast.success(`${currentTask[0].title} Deleted Successfully`);
-    dispatch(getCurrentTaskDetails()); // Reset current task details
-    dispatch(setIsDeleteSelected());
-    dispatch(mutateData()); // Update data after deletion [help to filter the data into their respecitve column]
+      toast.success(`${currentTask[0].title} Deleted Successfully`);
+      dispatch(getCurrentTaskDetails()); // Reset current task details
+      dispatch(setIsDeleteSelected());
+      dispatch(mutateData()); // Update data after deletion [help to filter the data into their respecitve column]
+    }
   }
   return (
     <div className="fixed bottom-1/2 left-1/2 -translate-x-1/2 translate-y-1/2 w-[100vw] min-h-[100vh] flex justify-center items-center  z-1000 bg-gray_opacity z-[1000]">
