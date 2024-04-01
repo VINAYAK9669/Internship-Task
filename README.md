@@ -58,7 +58,7 @@ To get started with this project, follow these steps:
 
 ```bash
 # Clone the repository to your local machine
-git clone https://github.com/your-username/your-project.git
+gh repo clone VINAYAK9669/Internship-Task
 
 # Navigate to the project directory
 cd your-project
