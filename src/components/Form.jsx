@@ -91,10 +91,11 @@ function CreateForm({ type }) {
 
     if (type === "edit") {
       dispatch(editTask(JSON.stringify(data)));
+      dispatch(toggleEditFormStatus());
     } else if (type === "create") {
       dispatch(createTask(JSON.stringify(data)));
     }
-    dispatch(toggleEditFormStatus());
+
     toast.success("Task Created");
     reset();
     dispatch(mutateData());

@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unknown-property */
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import Button from "../utils/Button";
 
@@ -43,9 +42,9 @@ function Main() {
           filterEndDate: endDate ? endDate.toISOString() : "",
         },
       ])
-    );
+    ); // disptach filter cateories
     disptach(setSortOption(selectedSortOption));
-    disptach(mutateData()); // It will filter the data and assign them to their respective columnz
+    disptach(mutateData()); // To automatically filter data, sort the data, we should disptach it.
   }, [
     assigneeName,
     selectedPriorityOption,
