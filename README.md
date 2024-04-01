@@ -40,15 +40,15 @@ This project is a Task Tracker web application built for managing tasks within a
 
 ## Best Practices
 
-1. Reusable Components:
+1. **Reusable Components**:
    - The project utilizes reusable components for various functionalities such as:
      - `Edit/Create Task form`: This component is used for both editing and creating tasks, promoting code reuse.
      - `Priority and Sort By components`: Both functionalities use the same component, reducing redundancy.
      - `Task Cards`: These are reusable components used to display individual task details.
      - `Status Card`: Another reusable component used to display task status.
-2. Easy State Management using Redux:
+2. **Easy State Management using Redux**:
    - Redux is employed for managing application state, providing a centralized store for storing and updating data.
-3. Error Handling:
+3. **Error Handling**:
    - The application implements error handling mechanisms to handle errors encountered during task editing or creation, ensuring a smooth user experience.
 
 
