@@ -4,12 +4,12 @@ This project is a Task Tracker web application built for managing tasks within a
 
 ## Tech Stack
 
-- <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React.js + Vite" width="50" height="50"> React.js + Vite: Frontend framework for building user interfaces.
-- <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png" alt="Redux" width="50" height="50"> Redux: State management library for managing application state.
-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Tailwind_CSS_logo.svg" alt="Tailwind CSS" width="50" height="50"> Tailwind CSS: Utility-first CSS framework for styling.
-- <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Hook Form" width="50" height="50"> React Hook Form: Library for managing form state and validation.
-- <img src="https://react-hot-toast.com/images/logo.svg" alt="React Hot Toastify" width="50" height="50"> React Hot Toastify: Toast notifications for displaying error or success messages.
-- <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Icons" width="50" height="50"> React Icons: Icon library for adding icons to the UI.
+- **React.js + Vite**: Frontend framework for building user interfaces.
+- **Redux**: State management library for managing application state.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **React Hook Form**: Library for managing form state and validation.
+- **React Hot Toastify**: Toast notifications for displaying error or success messages.
+- **React Icons**: Icon library for adding icons to the UI.
 
 
 ## Features
