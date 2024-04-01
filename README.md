@@ -10,6 +10,7 @@ This project is a Task Tracker web application built for managing tasks within a
 - **React Hook Form**: Library for managing form state and validation.
 - **React Hot Toastify**: Toast notifications for displaying error or success messages.
 - **React Icons**: Icon library for adding icons to the UI.
+- **React DatePicker**: It offers features such as date selection, range selection, time selection, and customization options for appearance and behavior.
 
 
 ## Features
@@ -70,4 +71,24 @@ npm install
 npm run dev
 ```
 
+## Screenshots
+
+### On Initial Loading : Data are provided to check the website quickly.
+![Screenshot 1](public/screenshots/Dashboard-1.JPG)
+
+### Create Task [ERROR HANDLING]: While Creating the task if form submitted without filling the required Data
+![Screenshot 2](public/screenshots/Dashboard_2.JPG)
+
+### Success MESSAGES: Once the task submitted app will show the success message
+![Screenshot 3](public/screenshots/Dashboard_3.JPG)
+
+### Filter:  Assignee, Priority, Date Range
+![Screenshot 4](public/screenshots/Dashboard_4.JPG)
+![Screenshot 5](public/screenshots/Dashboard_5.JPG)
+
+### Edit Task: (If the status changes to "completed" automatically the END DATE filed wiil appear.
+![Screenshot 6](public/screenshots/Dashboard_6.JPG)
+
+### Delete Task: (If the status changes to "completed" Then user can't delete the task)
+![Screenshot 7](public/screenshots/Dashboard_7.JPG)
 
